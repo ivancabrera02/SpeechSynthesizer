@@ -891,7 +891,7 @@ $synth.Speak("S I E M alert. A command and control beacon has been detected on e
 
 ## 🔧 Advanced Patterns
 
-### Looping Alert — Repeat Until User Interacts
+### Looping Alert
 
 ```powershell
 Add-Type -AssemblyName System.Speech
@@ -976,7 +976,3 @@ while ($synth.State -eq [System.Speech.Synthesis.SynthesizerState]::Speaking) {
 | Invoke-CredentialPhisher (Fox-IT) | https://github.com/fox-it/Invoke-CredentialPhisher |
 | MITRE ATT&CK T1491 | https://attack.mitre.org/techniques/T1491/ |
 | MITRE ATT&CK T1204.001 | https://attack.mitre.org/techniques/T1204/001/ |
-
----
-
-*Part of the Purple Team Playbook series · [Toast Notifications](https://github.com/your-org/toast-notifications) · [Windows Credential UI Abuse](https://github.com/your-org/credential-ui-abuse)*
